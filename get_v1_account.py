@@ -7,7 +7,7 @@ def get_v1_account():
   """
   url = "http://localhost:5051/v1/account"
 
-  payload = ""
+
   headers = {
     'X-Dm-Auth-Token': '<string>',
     'X-Dm-Bb-Render-Mode': '<string>',
@@ -18,7 +18,7 @@ def get_v1_account():
     method="GET",
     url=url,
     headers=headers,
-    json=payload
+
   )
   print(response.text)
 
