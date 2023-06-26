@@ -1,0 +1,1 @@
+activate_account_token={}
