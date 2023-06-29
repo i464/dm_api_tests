@@ -1,5 +1,6 @@
 import requests
 from services.dm_api_account import DmApiAccount
+import structlog
 
 
 def test_put_v1_account_token(token="79fcb753-bad1-4100-94e2-658c0f4319bf"):
